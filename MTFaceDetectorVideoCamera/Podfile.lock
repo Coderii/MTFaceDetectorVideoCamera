@@ -1,0 +1,17 @@
+PODS:
+  - GPUImage (0.1.7)
+  - YYKit (1.0.7):
+    - YYKit/no-arc (= 1.0.7)
+  - YYKit/no-arc (1.0.7)
+
+DEPENDENCIES:
+  - GPUImage
+  - YYKit
+
+SPEC CHECKSUMS:
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  YYKit: 843d1b26e20b82c695790c9a89907eaa1e99907f
+
+PODFILE CHECKSUM: 54b614eaa0e20d7c9d5d4b1e183a21add4da4be9
+
+COCOAPODS: 1.0.0

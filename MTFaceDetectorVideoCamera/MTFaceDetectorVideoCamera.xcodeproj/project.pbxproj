@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EDEB3050287890127FBB673 /* libPods-MTFaceDetectorVideoCameraTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6425E4AAFD1061738E591A /* libPods-MTFaceDetectorVideoCameraTests.a */; };
+		3328D9E708646910B98FD04C /* libPods-MTFaceDetectorVideoCameraUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC39E649E660CDE983D2E89A /* libPods-MTFaceDetectorVideoCameraUITests.a */; };
+		4574BABB01429EBA6142DDDE /* libPods-MTFaceDetectorVideoCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA4C6A0044E99B53C136AC0 /* libPods-MTFaceDetectorVideoCamera.a */; };
+		A3014CDA1D616421009F94BB /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3014CD81D616421009F94BB /* camera@2x.png */; };
+		A3014CDB1D616421009F94BB /* turn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3014CD91D616421009F94BB /* turn@2x.png */; };
+		A3014CDE1D6191D6009F94BB /* MTFaceDetectorCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = A3014CDD1D6191D6009F94BB /* MTFaceDetectorCamera.m */; };
+		A3014CE41D61E59A009F94BB /* MTCalculateFaceRect.m in Sources */ = {isa = PBXBuildFile; fileRef = A3014CE31D61E59A009F94BB /* MTCalculateFaceRect.m */; };
+		A3014CE91D62B17D009F94BB /* test.JPG in Resources */ = {isa = PBXBuildFile; fileRef = A3014CE81D62B17D009F94BB /* test.JPG */; };
+		A308241B1D7DCD920057ED0F /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A308241A1D7DCD920057ED0F /* YYFPSLabel.m */; };
+		A308241E1D7E61310057ED0F /* MTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A308241D1D7E61310057ED0F /* MTMainViewController.m */; };
+		A30824241D7E63E90057ED0F /* MTUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A30824231D7E63E90057ED0F /* MTUIButton.m */; };
+		A308242F1D7E6BBD0057ED0F /* MTCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A308242E1D7E6BBD0057ED0F /* MTCameraViewController.m */; };
+		A3CFF2BA1D6040DF00F38432 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CFF2B91D6040DF00F38432 /* main.m */; };
+		A3CFF2BD1D6040DF00F38432 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CFF2BC1D6040DF00F38432 /* AppDelegate.m */; };
+		A3CFF2C01D6040DF00F38432 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CFF2BF1D6040DF00F38432 /* ViewController.m */; };
+		A3CFF2C31D6040DF00F38432 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3CFF2C11D6040DF00F38432 /* Main.storyboard */; };
+		A3CFF2C51D6040DF00F38432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3CFF2C41D6040DF00F38432 /* Assets.xcassets */; };
+		A3CFF2C81D6040DF00F38432 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3CFF2C61D6040DF00F38432 /* LaunchScreen.storyboard */; };
+		A3CFF2D31D6040DF00F38432 /* MTFaceDetectorVideoCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CFF2D21D6040DF00F38432 /* MTFaceDetectorVideoCameraTests.m */; };
+		A3CFF2DE1D6040DF00F38432 /* MTFaceDetectorVideoCameraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CFF2DD1D6040DF00F38432 /* MTFaceDetectorVideoCameraUITests.m */; };
+		A3EF38731D643395000C84DF /* MTFaceViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EF38721D643395000C84DF /* MTFaceViewManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3CFF2CF1D6040DF00F38432 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3CFF2AD1D6040DF00F38432 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3CFF2B41D6040DF00F38432;
+			remoteInfo = MTFaceDetectorVideoCamera;
+		};
+		A3CFF2DA1D6040DF00F38432 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3CFF2AD1D6040DF00F38432 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3CFF2B41D6040DF00F38432;
+			remoteInfo = MTFaceDetectorVideoCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25E2B0C067CF4DF34ACC6426 /* Pods-MTFaceDetectorVideoCameraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTFaceDetectorVideoCameraTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MTFaceDetectorVideoCameraTests/Pods-MTFaceDetectorVideoCameraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3EA4C6A0044E99B53C136AC0 /* libPods-MTFaceDetectorVideoCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MTFaceDetectorVideoCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		585B93A7C894B69F2FBD27CE /* Pods-MTFaceDetectorVideoCameraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTFaceDetectorVideoCameraTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MTFaceDetectorVideoCameraTests/Pods-MTFaceDetectorVideoCameraTests.release.xcconfig"; sourceTree = "<group>"; };
+		A3014CD81D616421009F94BB /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera@2x.png"; sourceTree = "<group>"; };
+		A3014CD91D616421009F94BB /* turn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turn@2x.png"; sourceTree = "<group>"; };
+		A3014CDC1D6191D6009F94BB /* MTFaceDetectorCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFaceDetectorCamera.h; sourceTree = "<group>"; };
+		A3014CDD1D6191D6009F94BB /* MTFaceDetectorCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFaceDetectorCamera.m; sourceTree = "<group>"; };
+		A3014CE21D61E59A009F94BB /* MTCalculateFaceRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTCalculateFaceRect.h; sourceTree = "<group>"; };
+		A3014CE31D61E59A009F94BB /* MTCalculateFaceRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTCalculateFaceRect.m; sourceTree = "<group>"; };
+		A3014CE81D62B17D009F94BB /* test.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.JPG; sourceTree = "<group>"; };
+		A30824191D7DCD920057ED0F /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		A308241A1D7DCD920057ED0F /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		A308241C1D7E61310057ED0F /* MTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMainViewController.h; sourceTree = "<group>"; };
+		A308241D1D7E61310057ED0F /* MTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMainViewController.m; sourceTree = "<group>"; };
+		A30824221D7E63E90057ED0F /* MTUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTUIButton.h; sourceTree = "<group>"; };
+		A30824231D7E63E90057ED0F /* MTUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTUIButton.m; sourceTree = "<group>"; };
+		A308242D1D7E6BBD0057ED0F /* MTCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTCameraViewController.h; sourceTree = "<group>"; };
+		A308242E1D7E6BBD0057ED0F /* MTCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTCameraViewController.m; sourceTree = "<group>"; };
+		A3CFF2B51D6040DF00F38432 /* MTFaceDetectorVideoCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTFaceDetectorVideoCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3CFF2B91D6040DF00F38432 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3CFF2BB1D6040DF00F38432 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3CFF2BC1D6040DF00F38432 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3CFF2BE1D6040DF00F38432 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A3CFF2BF1D6040DF00F38432 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3CFF2C21D6040DF00F38432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3CFF2C41D6040DF00F38432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3CFF2C71D6040DF00F38432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3CFF2C91D6040DF00F38432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3CFF2CE1D6040DF00F38432 /* MTFaceDetectorVideoCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTFaceDetectorVideoCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3CFF2D21D6040DF00F38432 /* MTFaceDetectorVideoCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTFaceDetectorVideoCameraTests.m; sourceTree = "<group>"; };
+		A3CFF2D41D6040DF00F38432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3CFF2D91D6040DF00F38432 /* MTFaceDetectorVideoCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTFaceDetectorVideoCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3CFF2DD1D6040DF00F38432 /* MTFaceDetectorVideoCameraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTFaceDetectorVideoCameraUITests.m; sourceTree = "<group>"; };
+		A3CFF2DF1D6040E000F38432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3EF38711D643395000C84DF /* MTFaceViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFaceViewManager.h; sourceTree = "<group>"; };
+		A3EF38721D643395000C84DF /* MTFaceViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFaceViewManager.m; sourceTree = "<group>"; };
+		C65138B89F5AA923E6C3021C /* Pods-MTFaceDetectorVideoCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTFaceDetectorVideoCamera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MTFaceDetectorVideoCamera/Pods-MTFaceDetectorVideoCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		C74748F8E99643B6BAC5E6FD /* Pods-MTFaceDetectorVideoCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTFaceDetectorVideoCamera.release.xcconfig"; path = "Pods/Target Support Files/Pods-MTFaceDetectorVideoCamera/Pods-MTFaceDetectorVideoCamera.release.xcconfig"; sourceTree = "<group>"; };
+		CD1BD1087F4A52D1919CFD26 /* Pods-MTFaceDetectorVideoCameraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTFaceDetectorVideoCameraUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MTFaceDetectorVideoCameraUITests/Pods-MTFaceDetectorVideoCameraUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC39E649E660CDE983D2E89A /* libPods-MTFaceDetectorVideoCameraUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MTFaceDetectorVideoCameraUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6425E4AAFD1061738E591A /* libPods-MTFaceDetectorVideoCameraTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MTFaceDetectorVideoCameraTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC369F54BC91A7B628336BD0 /* Pods-MTFaceDetectorVideoCameraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTFaceDetectorVideoCameraUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MTFaceDetectorVideoCameraUITests/Pods-MTFaceDetectorVideoCameraUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3CFF2B21D6040DF00F38432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4574BABB01429EBA6142DDDE /* libPods-MTFaceDetectorVideoCamera.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CFF2CB1D6040DF00F38432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EDEB3050287890127FBB673 /* libPods-MTFaceDetectorVideoCameraTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CFF2D61D6040DF00F38432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3328D9E708646910B98FD04C /* libPods-MTFaceDetectorVideoCameraUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E85F278E33EEA665E102B68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EA4C6A0044E99B53C136AC0 /* libPods-MTFaceDetectorVideoCamera.a */,
+				DC6425E4AAFD1061738E591A /* libPods-MTFaceDetectorVideoCameraTests.a */,
+				DC39E649E660CDE983D2E89A /* libPods-MTFaceDetectorVideoCameraUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3014CD71D61640F009F94BB /* Reources */ = {
+			isa = PBXGroup;
+			children = (
+				A3014CE81D62B17D009F94BB /* test.JPG */,
+				A3014CD81D616421009F94BB /* camera@2x.png */,
+				A3014CD91D616421009F94BB /* turn@2x.png */,
+			);
+			name = Reources;
+			sourceTree = "<group>";
+		};
+		A30824251D7E640B0057ED0F /* FPS */ = {
+			isa = PBXGroup;
+			children = (
+				A30824191D7DCD920057ED0F /* YYFPSLabel.h */,
+				A308241A1D7DCD920057ED0F /* YYFPSLabel.m */,
+			);
+			name = FPS;
+			sourceTree = "<group>";
+		};
+		A30824261D7E64140057ED0F /* BUTTON */ = {
+			isa = PBXGroup;
+			children = (
+				A30824221D7E63E90057ED0F /* MTUIButton.h */,
+				A30824231D7E63E90057ED0F /* MTUIButton.m */,
+			);
+			name = BUTTON;
+			sourceTree = "<group>";
+		};
+		A3CFF2AC1D6040DF00F38432 = {
+			isa = PBXGroup;
+			children = (
+				A3014CD71D61640F009F94BB /* Reources */,
+				A3CFF2B71D6040DF00F38432 /* MTFaceDetectorVideoCamera */,
+				A3CFF2D11D6040DF00F38432 /* MTFaceDetectorVideoCameraTests */,
+				A3CFF2DC1D6040DF00F38432 /* MTFaceDetectorVideoCameraUITests */,
+				A3CFF2B61D6040DF00F38432 /* Products */,
+				A4394A6CB1E3B5C27B710B59 /* Pods */,
+				1E85F278E33EEA665E102B68 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A3CFF2B61D6040DF00F38432 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3CFF2B51D6040DF00F38432 /* MTFaceDetectorVideoCamera.app */,
+				A3CFF2CE1D6040DF00F38432 /* MTFaceDetectorVideoCameraTests.xctest */,
+				A3CFF2D91D6040DF00F38432 /* MTFaceDetectorVideoCameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3CFF2B71D6040DF00F38432 /* MTFaceDetectorVideoCamera */ = {
+			isa = PBXGroup;
+			children = (
+				A30824261D7E64140057ED0F /* BUTTON */,
+				A30824251D7E640B0057ED0F /* FPS */,
+				A3EF38711D643395000C84DF /* MTFaceViewManager.h */,
+				A3EF38721D643395000C84DF /* MTFaceViewManager.m */,
+				A3014CDC1D6191D6009F94BB /* MTFaceDetectorCamera.h */,
+				A3014CDD1D6191D6009F94BB /* MTFaceDetectorCamera.m */,
+				A3014CE21D61E59A009F94BB /* MTCalculateFaceRect.h */,
+				A3014CE31D61E59A009F94BB /* MTCalculateFaceRect.m */,
+				A3CFF2BE1D6040DF00F38432 /* ViewController.h */,
+				A3CFF2BF1D6040DF00F38432 /* ViewController.m */,
+				A308241C1D7E61310057ED0F /* MTMainViewController.h */,
+				A308241D1D7E61310057ED0F /* MTMainViewController.m */,
+				A308242D1D7E6BBD0057ED0F /* MTCameraViewController.h */,
+				A308242E1D7E6BBD0057ED0F /* MTCameraViewController.m */,
+				A3CFF2B81D6040DF00F38432 /* Supporting Files */,
+			);
+			path = MTFaceDetectorVideoCamera;
+			sourceTree = "<group>";
+		};
+		A3CFF2B81D6040DF00F38432 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3CFF2C11D6040DF00F38432 /* Main.storyboard */,
+				A3CFF2C41D6040DF00F38432 /* Assets.xcassets */,
+				A3CFF2C61D6040DF00F38432 /* LaunchScreen.storyboard */,
+				A3CFF2C91D6040DF00F38432 /* Info.plist */,
+				A3CFF2BB1D6040DF00F38432 /* AppDelegate.h */,
+				A3CFF2BC1D6040DF00F38432 /* AppDelegate.m */,
+				A3CFF2B91D6040DF00F38432 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3CFF2D11D6040DF00F38432 /* MTFaceDetectorVideoCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3CFF2D21D6040DF00F38432 /* MTFaceDetectorVideoCameraTests.m */,
+				A3CFF2D41D6040DF00F38432 /* Info.plist */,
+			);
+			path = MTFaceDetectorVideoCameraTests;
+			sourceTree = "<group>";
+		};
+		A3CFF2DC1D6040DF00F38432 /* MTFaceDetectorVideoCameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3CFF2DD1D6040DF00F38432 /* MTFaceDetectorVideoCameraUITests.m */,
+				A3CFF2DF1D6040E000F38432 /* Info.plist */,
+			);
+			path = MTFaceDetectorVideoCameraUITests;
+			sourceTree = "<group>";
+		};
+		A4394A6CB1E3B5C27B710B59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C65138B89F5AA923E6C3021C /* Pods-MTFaceDetectorVideoCamera.debug.xcconfig */,
+				C74748F8E99643B6BAC5E6FD /* Pods-MTFaceDetectorVideoCamera.release.xcconfig */,
+				25E2B0C067CF4DF34ACC6426 /* Pods-MTFaceDetectorVideoCameraTests.debug.xcconfig */,
+				585B93A7C894B69F2FBD27CE /* Pods-MTFaceDetectorVideoCameraTests.release.xcconfig */,
+				CD1BD1087F4A52D1919CFD26 /* Pods-MTFaceDetectorVideoCameraUITests.debug.xcconfig */,
+				FC369F54BC91A7B628336BD0 /* Pods-MTFaceDetectorVideoCameraUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3CFF2B41D6040DF00F38432 /* MTFaceDetectorVideoCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3CFF2E21D6040E000F38432 /* Build configuration list for PBXNativeTarget "MTFaceDetectorVideoCamera" */;
+			buildPhases = (
+				171B027F2987110487E5AF5B /* 📦 Check Pods Manifest.lock */,
+				A3CFF2B11D6040DF00F38432 /* Sources */,
+				A3CFF2B21D6040DF00F38432 /* Frameworks */,
+				A3CFF2B31D6040DF00F38432 /* Resources */,
+				443C0B6DCDAB6BD48001EE23 /* 📦 Embed Pods Frameworks */,
+				2A7428B84C12544764AA30AB /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTFaceDetectorVideoCamera;
+			productName = MTFaceDetectorVideoCamera;
+			productReference = A3CFF2B51D6040DF00F38432 /* MTFaceDetectorVideoCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3CFF2CD1D6040DF00F38432 /* MTFaceDetectorVideoCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3CFF2E51D6040E000F38432 /* Build configuration list for PBXNativeTarget "MTFaceDetectorVideoCameraTests" */;
+			buildPhases = (
+				CDFCC991CA0828104AFE831A /* 📦 Check Pods Manifest.lock */,
+				A3CFF2CA1D6040DF00F38432 /* Sources */,
+				A3CFF2CB1D6040DF00F38432 /* Frameworks */,
+				A3CFF2CC1D6040DF00F38432 /* Resources */,
+				C15A9A90256C73916D59A5E5 /* 📦 Embed Pods Frameworks */,
+				06043920DEAA846579601232 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3CFF2D01D6040DF00F38432 /* PBXTargetDependency */,
+			);
+			name = MTFaceDetectorVideoCameraTests;
+			productName = MTFaceDetectorVideoCameraTests;
+			productReference = A3CFF2CE1D6040DF00F38432 /* MTFaceDetectorVideoCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3CFF2D81D6040DF00F38432 /* MTFaceDetectorVideoCameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3CFF2E81D6040E000F38432 /* Build configuration list for PBXNativeTarget "MTFaceDetectorVideoCameraUITests" */;
+			buildPhases = (
+				ED23C74C49A64D20D52F018B /* 📦 Check Pods Manifest.lock */,
+				A3CFF2D51D6040DF00F38432 /* Sources */,
+				A3CFF2D61D6040DF00F38432 /* Frameworks */,
+				A3CFF2D71D6040DF00F38432 /* Resources */,
+				58E7917DA97BC5F5C536A9D1 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3CFF2DB1D6040DF00F38432 /* PBXTargetDependency */,
+			);
+			name = MTFaceDetectorVideoCameraUITests;
+			productName = MTFaceDetectorVideoCameraUITests;
+			productReference = A3CFF2D91D6040DF00F38432 /* MTFaceDetectorVideoCameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3CFF2AD1D6040DF00F38432 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = meitu;
+				TargetAttributes = {
+					A3CFF2B41D6040DF00F38432 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SW9TH7TPPT;
+					};
+					A3CFF2CD1D6040DF00F38432 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A3CFF2B41D6040DF00F38432;
+					};
+					A3CFF2D81D6040DF00F38432 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A3CFF2B41D6040DF00F38432;
+					};
+				};
+			};
+			buildConfigurationList = A3CFF2B01D6040DF00F38432 /* Build configuration list for PBXProject "MTFaceDetectorVideoCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3CFF2AC1D6040DF00F38432;
+			productRefGroup = A3CFF2B61D6040DF00F38432 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3CFF2B41D6040DF00F38432 /* MTFaceDetectorVideoCamera */,
+				A3CFF2CD1D6040DF00F38432 /* MTFaceDetectorVideoCameraTests */,
+				A3CFF2D81D6040DF00F38432 /* MTFaceDetectorVideoCameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3CFF2B31D6040DF00F38432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CFF2C81D6040DF00F38432 /* LaunchScreen.storyboard in Resources */,
+				A3CFF2C51D6040DF00F38432 /* Assets.xcassets in Resources */,
+				A3014CDB1D616421009F94BB /* turn@2x.png in Resources */,
+				A3014CE91D62B17D009F94BB /* test.JPG in Resources */,
+				A3CFF2C31D6040DF00F38432 /* Main.storyboard in Resources */,
+				A3014CDA1D616421009F94BB /* camera@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CFF2CC1D6040DF00F38432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CFF2D71D6040DF00F38432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06043920DEAA846579601232 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTFaceDetectorVideoCameraTests/Pods-MTFaceDetectorVideoCameraTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		171B027F2987110487E5AF5B /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2A7428B84C12544764AA30AB /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTFaceDetectorVideoCamera/Pods-MTFaceDetectorVideoCamera-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		443C0B6DCDAB6BD48001EE23 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTFaceDetectorVideoCamera/Pods-MTFaceDetectorVideoCamera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58E7917DA97BC5F5C536A9D1 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTFaceDetectorVideoCameraUITests/Pods-MTFaceDetectorVideoCameraUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C15A9A90256C73916D59A5E5 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTFaceDetectorVideoCameraTests/Pods-MTFaceDetectorVideoCameraTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDFCC991CA0828104AFE831A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED23C74C49A64D20D52F018B /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3CFF2B11D6040DF00F38432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CFF2C01D6040DF00F38432 /* ViewController.m in Sources */,
+				A308241B1D7DCD920057ED0F /* YYFPSLabel.m in Sources */,
+				A3014CDE1D6191D6009F94BB /* MTFaceDetectorCamera.m in Sources */,
+				A3CFF2BD1D6040DF00F38432 /* AppDelegate.m in Sources */,
+				A3014CE41D61E59A009F94BB /* MTCalculateFaceRect.m in Sources */,
+				A3CFF2BA1D6040DF00F38432 /* main.m in Sources */,
+				A30824241D7E63E90057ED0F /* MTUIButton.m in Sources */,
+				A308241E1D7E61310057ED0F /* MTMainViewController.m in Sources */,
+				A308242F1D7E6BBD0057ED0F /* MTCameraViewController.m in Sources */,
+				A3EF38731D643395000C84DF /* MTFaceViewManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CFF2CA1D6040DF00F38432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CFF2D31D6040DF00F38432 /* MTFaceDetectorVideoCameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CFF2D51D6040DF00F38432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CFF2DE1D6040DF00F38432 /* MTFaceDetectorVideoCameraUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3CFF2D01D6040DF00F38432 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3CFF2B41D6040DF00F38432 /* MTFaceDetectorVideoCamera */;
+			targetProxy = A3CFF2CF1D6040DF00F38432 /* PBXContainerItemProxy */;
+		};
+		A3CFF2DB1D6040DF00F38432 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3CFF2B41D6040DF00F38432 /* MTFaceDetectorVideoCamera */;
+			targetProxy = A3CFF2DA1D6040DF00F38432 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3CFF2C11D6040DF00F38432 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3CFF2C21D6040DF00F38432 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3CFF2C61D6040DF00F38432 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3CFF2C71D6040DF00F38432 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3CFF2E01D6040E000F38432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3CFF2E11D6040E000F38432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3CFF2E31D6040E000F38432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C65138B89F5AA923E6C3021C /* Pods-MTFaceDetectorVideoCamera.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MTFaceDetectorVideoCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chengpeng.MTFaceDetectorVideoCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A3CFF2E41D6040E000F38432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C74748F8E99643B6BAC5E6FD /* Pods-MTFaceDetectorVideoCamera.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MTFaceDetectorVideoCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chengpeng.MTFaceDetectorVideoCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		A3CFF2E61D6040E000F38432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25E2B0C067CF4DF34ACC6426 /* Pods-MTFaceDetectorVideoCameraTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MTFaceDetectorVideoCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chengpeng.MTFaceDetectorVideoCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTFaceDetectorVideoCamera.app/MTFaceDetectorVideoCamera";
+			};
+			name = Debug;
+		};
+		A3CFF2E71D6040E000F38432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 585B93A7C894B69F2FBD27CE /* Pods-MTFaceDetectorVideoCameraTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MTFaceDetectorVideoCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chengpeng.MTFaceDetectorVideoCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTFaceDetectorVideoCamera.app/MTFaceDetectorVideoCamera";
+			};
+			name = Release;
+		};
+		A3CFF2E91D6040E000F38432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD1BD1087F4A52D1919CFD26 /* Pods-MTFaceDetectorVideoCameraUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = MTFaceDetectorVideoCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chengpeng.MTFaceDetectorVideoCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MTFaceDetectorVideoCamera;
+			};
+			name = Debug;
+		};
+		A3CFF2EA1D6040E000F38432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC369F54BC91A7B628336BD0 /* Pods-MTFaceDetectorVideoCameraUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = MTFaceDetectorVideoCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chengpeng.MTFaceDetectorVideoCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MTFaceDetectorVideoCamera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3CFF2B01D6040DF00F38432 /* Build configuration list for PBXProject "MTFaceDetectorVideoCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3CFF2E01D6040E000F38432 /* Debug */,
+				A3CFF2E11D6040E000F38432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3CFF2E21D6040E000F38432 /* Build configuration list for PBXNativeTarget "MTFaceDetectorVideoCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3CFF2E31D6040E000F38432 /* Debug */,
+				A3CFF2E41D6040E000F38432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3CFF2E51D6040E000F38432 /* Build configuration list for PBXNativeTarget "MTFaceDetectorVideoCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3CFF2E61D6040E000F38432 /* Debug */,
+				A3CFF2E71D6040E000F38432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3CFF2E81D6040E000F38432 /* Build configuration list for PBXNativeTarget "MTFaceDetectorVideoCameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3CFF2E91D6040E000F38432 /* Debug */,
+				A3CFF2EA1D6040E000F38432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3CFF2AD1D6040DF00F38432 /* Project object */;
+}
