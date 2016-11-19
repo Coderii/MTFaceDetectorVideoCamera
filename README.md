@@ -3,11 +3,11 @@ MTFaceDetectorCamera
 [![Support](https://img.shields.io/badge/ios-7-orange.svg)](https://www.apple.com/nl/ios/)&nbsp;
 ![platform](https://img.shields.io/badge/platform-ios-ff69b4.svg)&nbsp;
 
-**ä¸€ä¸ªåŸºäºGPUImageå°è£…çš„ç®€å•çš„å­ç±»MTFaceDetectorCameraï¼Œå¢åŠ äººè„¸æ£€æµ‹åŠŸèƒ½**  
+**Ò»¸ö»ùÓÚGPUImage·â×°µÄ¼òµ¥µÄ×ÓÀàMTFaceDetectorCamera£¬Ôö¼ÓÈËÁ³¼ì²â¹¦ÄÜ**  
 
 ## Features
-- [x] 	GPUImageäººè„¸æ£€æµ‹
-- [x] 	äººè„¸æ£€æµ‹rectæ ¹æ®ä¸åŒæ—‹è½¬æƒ…å†µè®¡ç®—åçš„è¿”å›
+- [x] 	GPUImageÈËÁ³¼ì²â
+- [x] 	ÈËÁ³¼ì²ârect¸ù¾İ²»Í¬Ğı×ªÇé¿ö¼ÆËãºóµÄ·µ»Ø
 
 ## Requirements
     - iOS 7.0+
@@ -19,22 +19,22 @@ MTFaceDetectorCamera
 	self.videoCamera = [[MTFaceDetectorCamera alloc] init];
 	[self.videoCamera openFaceDetector];
 	
-	// åœ¨ä»£ç†æ–¹æ³•ä¸­è¿”å›äººè„¸æ•°æ®
+	// ÔÚ´úÀí·½·¨ÖĞ·µ»ØÈËÁ³Êı¾İ
 	- (void)faceDetectorCaptureOutput:(AVCaptureOutput *)captureOutput didOutputMetadataObjects:(NSArray *)metadataObjects fromConnection:(AVCaptureConnection *)connection {
-		// æ•°æ®å¤„ç†
+		// Êı¾İ´¦Àí
 	}
 	
-	// æ¯ä¸€ä¸ªäººè„¸æ¡†çš„Rect
+	// Ã¿Ò»¸öÈËÁ³¿òµÄRect
 	CGRect rect = [MTCalculateFaceRect calculateFaceRectWithFaceObject:faceObj 
 															parentView:self.filterImageView
 															outputImageOrientation:[[UIApplication sharedApplication] statusBarOrientation]                                                           	cameraPosition:self.videoCamera.cameraPosition
 															cameraMirror:self.videoCamera.horizontallyMirrorFrontFacingCamera];
 											
 	
-	// æ˜¾ç¤ºäººè„¸æ¡†ï¼ˆä¼˜åŒ–è¿‡çš„ï¼‰										
+	// ÏÔÊ¾ÈËÁ³¿ò£¨ÓÅ»¯¹ıµÄ£©										
 	[[MTFaceViewManager shareFaceViewManager] showFaceViewAtIndex:index faceCount:metadataObjects.count rect:rect parentView:self.filterImageView];
 	
-	// éšè—æ‰€æœ‰çš„äººè„¸æ¡†
+	// Òş²ØËùÓĞµÄÈËÁ³¿ò
 	[[MTFaceViewManager shareFaceViewManager] hideAllFaceViewWithParentView:self.filterImageView];
 
 ## Release History
